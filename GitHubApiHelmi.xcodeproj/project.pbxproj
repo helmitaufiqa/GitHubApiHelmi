@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB49B0FE160F3413273DAA38 /* Pods_GitHubApiHelmi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C789A47ABA397464B4A8C08 /* Pods_GitHubApiHelmi.framework */; };
+		D36EC904265BDD3A00A76527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36EC903265BDD3A00A76527 /* AppDelegate.swift */; };
+		D36EC906265BDD3A00A76527 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36EC905265BDD3A00A76527 /* SceneDelegate.swift */; };
+		D36EC90D265BDD3B00A76527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36EC90C265BDD3B00A76527 /* Assets.xcassets */; };
+		D36EC910265BDD3B00A76527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36EC90E265BDD3B00A76527 /* LaunchScreen.storyboard */; };
+		D36EC922265BDE8A00A76527 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36EC921265BDE8A00A76527 /* AppCoordinator.swift */; };
+		D36EC925265BDEE200A76527 /* SplashScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36EC924265BDEE200A76527 /* SplashScreenCoordinator.swift */; };
+		D36EC92A265BDF5300A76527 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36EC928265BDF5300A76527 /* SplashScreenViewController.swift */; };
+		D36EC92B265BDF5300A76527 /* SplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D36EC929265BDF5300A76527 /* SplashScreenViewController.xib */; };
+		D36EC931265BE0C700A76527 /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36EC930265BE0C700A76527 /* SplashScreenViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C789A47ABA397464B4A8C08 /* Pods_GitHubApiHelmi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubApiHelmi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		954F4444987461F982B79DCD /* Pods-GitHubApiHelmi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubApiHelmi.release.xcconfig"; path = "Target Support Files/Pods-GitHubApiHelmi/Pods-GitHubApiHelmi.release.xcconfig"; sourceTree = "<group>"; };
+		D36EC900265BDD3A00A76527 /* GitHubApiHelmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubApiHelmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36EC903265BDD3A00A76527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D36EC905265BDD3A00A76527 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D36EC90C265BDD3B00A76527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D36EC90F265BDD3B00A76527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D36EC911265BDD3B00A76527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36EC921265BDE8A00A76527 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D36EC924265BDEE200A76527 /* SplashScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenCoordinator.swift; sourceTree = "<group>"; };
+		D36EC928265BDF5300A76527 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		D36EC929265BDF5300A76527 /* SplashScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenViewController.xib; sourceTree = "<group>"; };
+		D36EC930265BE0C700A76527 /* SplashScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewModel.swift; sourceTree = "<group>"; };
+		F6E1C303B845A278F9F78BE5 /* Pods-GitHubApiHelmi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubApiHelmi.debug.xcconfig"; path = "Target Support Files/Pods-GitHubApiHelmi/Pods-GitHubApiHelmi.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36EC8FD265BDD3900A76527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB49B0FE160F3413273DAA38 /* Pods_GitHubApiHelmi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC68531FD49C3E27AC8C784 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6E1C303B845A278F9F78BE5 /* Pods-GitHubApiHelmi.debug.xcconfig */,
+				954F4444987461F982B79DCD /* Pods-GitHubApiHelmi.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCDC0C13EFFF7691A50EEF13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C789A47ABA397464B4A8C08 /* Pods_GitHubApiHelmi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D36EC8F7265BDD3900A76527 = {
+			isa = PBXGroup;
+			children = (
+				D36EC902265BDD3A00A76527 /* GitHubApiHelmi */,
+				D36EC901265BDD3A00A76527 /* Products */,
+				1CC68531FD49C3E27AC8C784 /* Pods */,
+				BCDC0C13EFFF7691A50EEF13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D36EC901265BDD3A00A76527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36EC900265BDD3A00A76527 /* GitHubApiHelmi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36EC902265BDD3A00A76527 /* GitHubApiHelmi */ = {
+			isa = PBXGroup;
+			children = (
+				D36EC91E265BDE2400A76527 /* Applications */,
+				D36EC91D265BDDE800A76527 /* Config */,
+				D36EC91C265BDDA800A76527 /* Resources */,
+				D36EC91B265BDDA200A76527 /* Modules */,
+				D36EC911265BDD3B00A76527 /* Info.plist */,
+			);
+			path = GitHubApiHelmi;
+			sourceTree = "<group>";
+		};
+		D36EC91B265BDDA200A76527 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D36EC920265BDE6A00A76527 /* Coordinators */,
+				D36EC927265BDF1800A76527 /* SplashScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D36EC91C265BDDA800A76527 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D36EC91F265BDE5B00A76527 /* Fonts */,
+				D36EC90C265BDD3B00A76527 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D36EC91D265BDDE800A76527 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D36EC91E265BDE2400A76527 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				D36EC903265BDD3A00A76527 /* AppDelegate.swift */,
+				D36EC90E265BDD3B00A76527 /* LaunchScreen.storyboard */,
+				D36EC905265BDD3A00A76527 /* SceneDelegate.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		D36EC91F265BDE5B00A76527 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D36EC920265BDE6A00A76527 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				D36EC921265BDE8A00A76527 /* AppCoordinator.swift */,
+				D36EC924265BDEE200A76527 /* SplashScreenCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D36EC927265BDF1800A76527 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D36EC92F265BE0B900A76527 /* ViewModel */,
+				D36EC92D265BE0AF00A76527 /* ViewController */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		D36EC92D265BE0AF00A76527 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D36EC928265BDF5300A76527 /* SplashScreenViewController.swift */,
+				D36EC929265BDF5300A76527 /* SplashScreenViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D36EC92F265BE0B900A76527 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D36EC930265BE0C700A76527 /* SplashScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D36EC8FF265BDD3900A76527 /* GitHubApiHelmi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36EC914265BDD3B00A76527 /* Build configuration list for PBXNativeTarget "GitHubApiHelmi" */;
+			buildPhases = (
+				0C223E66370C96BC7D74F8B4 /* [CP] Check Pods Manifest.lock */,
+				D36EC8FC265BDD3900A76527 /* Sources */,
+				D36EC8FD265BDD3900A76527 /* Frameworks */,
+				D36EC8FE265BDD3900A76527 /* Resources */,
+				E03D39513B13F33D17A0AF4A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitHubApiHelmi;
+			productName = GitHubApiHelmi;
+			productReference = D36EC900265BDD3A00A76527 /* GitHubApiHelmi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D36EC8F8265BDD3900A76527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D36EC8FF265BDD3900A76527 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D36EC8FB265BDD3900A76527 /* Build configuration list for PBXProject "GitHubApiHelmi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D36EC8F7265BDD3900A76527;
+			productRefGroup = D36EC901265BDD3A00A76527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D36EC8FF265BDD3900A76527 /* GitHubApiHelmi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36EC8FE265BDD3900A76527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36EC92B265BDF5300A76527 /* SplashScreenViewController.xib in Resources */,
+				D36EC910265BDD3B00A76527 /* LaunchScreen.storyboard in Resources */,
+				D36EC90D265BDD3B00A76527 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C223E66370C96BC7D74F8B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitHubApiHelmi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E03D39513B13F33D17A0AF4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitHubApiHelmi/Pods-GitHubApiHelmi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitHubApiHelmi/Pods-GitHubApiHelmi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitHubApiHelmi/Pods-GitHubApiHelmi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D36EC8FC265BDD3900A76527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36EC922265BDE8A00A76527 /* AppCoordinator.swift in Sources */,
+				D36EC904265BDD3A00A76527 /* AppDelegate.swift in Sources */,
+				D36EC906265BDD3A00A76527 /* SceneDelegate.swift in Sources */,
+				D36EC92A265BDF5300A76527 /* SplashScreenViewController.swift in Sources */,
+				D36EC925265BDEE200A76527 /* SplashScreenCoordinator.swift in Sources */,
+				D36EC931265BE0C700A76527 /* SplashScreenViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D36EC90E265BDD3B00A76527 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36EC90F265BDD3B00A76527 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D36EC912265BDD3B00A76527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D36EC913265BDD3B00A76527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D36EC915265BDD3B00A76527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E1C303B845A278F9F78BE5 /* Pods-GitHubApiHelmi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QU3Q37652A;
+				INFOPLIST_FILE = GitHubApiHelmi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreigan.GitHubApiHelmi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D36EC916265BDD3B00A76527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954F4444987461F982B79DCD /* Pods-GitHubApiHelmi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QU3Q37652A;
+				INFOPLIST_FILE = GitHubApiHelmi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreigan.GitHubApiHelmi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D36EC8FB265BDD3900A76527 /* Build configuration list for PBXProject "GitHubApiHelmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36EC912265BDD3B00A76527 /* Debug */,
+				D36EC913265BDD3B00A76527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36EC914265BDD3B00A76527 /* Build configuration list for PBXNativeTarget "GitHubApiHelmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36EC915265BDD3B00A76527 /* Debug */,
+				D36EC916265BDD3B00A76527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D36EC8F8265BDD3900A76527 /* Project object */;
+}
