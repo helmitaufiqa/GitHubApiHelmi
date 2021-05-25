@@ -26,7 +26,9 @@ final class SplashScreenCoordinator: Coordinator {
     }
     
     func moveToChooseLanguage() {
-        
+        let chooseLanguageCoordinator = ChooseLanguageCoordinator(navigationController: navigationController)
+        childCoordinator.append(chooseLanguageCoordinator)
+        chooseLanguageCoordinator.start()
     }
     
 }

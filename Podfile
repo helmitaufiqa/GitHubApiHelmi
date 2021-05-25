@@ -8,5 +8,7 @@ target 'GitHubApiHelmi' do
   # Pods for GitHubApiHelmi
 
 pod 'lottie-ios'
+pod 'Moya'
+pod 'SDWebImage'
 
 end

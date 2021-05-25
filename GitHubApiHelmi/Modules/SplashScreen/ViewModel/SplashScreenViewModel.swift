@@ -10,7 +10,7 @@ import UIKit
 final class SplashScreenViewModel {
     var coordinator: SplashScreenCoordinator?
     
-    func moveToChoosLanguange() {
+    func moveToChooseLanguange() {
         coordinator?.moveToChooseLanguage()
     }
 }

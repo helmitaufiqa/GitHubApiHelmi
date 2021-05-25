@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  GitHubApiHelmi
+
+  Created by helmi taufiq alhakim on 25/05/21.
+  
+*/
+
+"Choose Language" = "Choose Language";
+"Choose Language..." = "Choose Language...";
+"Next To Dashboard" = "Next To Dashboard";
+"Users" = "Users";
+"Repository" = "Repository";
+"Issue" = "Issue";
+"Load More" = "Load More";
+"Comments:" = "Comments:";
+"Issue:" = "Issue:";
+"Search Repository" = "Search Repository";
+"Search Users" = "Search Users";
+"Search Issues" = "Search Issues";
